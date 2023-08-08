@@ -7,18 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E638A5002A7CFFE70030FB82 /* Math1_NextLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A4FF2A7CFFE70030FB82 /* Math1_NextLevelView.swift */; };
+		E638A5032A7D1BC40030FB82 /* Math2_Add1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5022A7D1BC30030FB82 /* Math2_Add1View.swift */; };
+		E638A5052A7D1C220030FB82 /* Math2_CorrectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5042A7D1C220030FB82 /* Math2_CorrectView.swift */; };
+		E638A50C2A7D2EAD0030FB82 /* addThirdQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A50B2A7D2EAD0030FB82 /* addThirdQView.swift */; };
+		E638A50D2A7D2EAD0030FB82 /* addSecondQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A50A2A7D2EAD0030FB82 /* addSecondQView.swift */; };
+		E638A5192A7D33960030FB82 /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5132A7D33960030FB82 /* DivisionView.swift */; };
+		E638A51A2A7D33960030FB82 /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5142A7D33960030FB82 /* MultiplicationView.swift */; };
+		E638A51B2A7D33960030FB82 /* multiSecondQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5152A7D33960030FB82 /* multiSecondQ.swift */; };
+		E638A51C2A7D33960030FB82 /* multiThirdQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5162A7D33960030FB82 /* multiThirdQ.swift */; };
+		E638A51D2A7D33960030FB82 /* divThirdQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5172A7D33960030FB82 /* divThirdQ.swift */; };
+		E638A51E2A7D33960030FB82 /* divSecondQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5182A7D33960030FB82 /* divSecondQ.swift */; };
+		E638A5222A7D3A840030FB82 /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A51F2A7D3A840030FB82 /* SubtractionView.swift */; };
+		E638A5232A7D3A840030FB82 /* subThirdQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5202A7D3A840030FB82 /* subThirdQ.swift */; };
+		E638A5242A7D3A840030FB82 /* subSecondQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5212A7D3A840030FB82 /* subSecondQ.swift */; };
+		E638A5362A828B7F0030FB82 /* wrongAnswer.wav in Resources */ = {isa = PBXBuildFile; fileRef = E638A5352A828B7F0030FB82 /* wrongAnswer.wav */; };
+		E638A5392A828C110030FB82 /* Spelling1_Q1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5382A828C110030FB82 /* Spelling1_Q1View.swift */; };
+		E638A53B2A828C460030FB82 /* SpellingCorrectView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A53A2A828C460030FB82 /* SpellingCorrectView1.swift */; };
+		E638A53D2A828C960030FB82 /* Spelling1_Q2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A53C2A828C960030FB82 /* Spelling1_Q2View.swift */; };
+		E638A53F2A828CF00030FB82 /* Spelling1_Q3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A53E2A828CF00030FB82 /* Spelling1_Q3View.swift */; };
+		E638A5412A828D2F0030FB82 /* SpellingIncorrectView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5402A828D2F0030FB82 /* SpellingIncorrectView1.swift */; };
+		E638A5432A828D890030FB82 /* SpellingLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A5422A828D890030FB82 /* SpellingLevelsView.swift */; };
 		E66ADE962A7CEA8600398317 /* WoolyAdventuresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADE952A7CEA8600398317 /* WoolyAdventuresApp.swift */; };
 		E66ADE982A7CEA8600398317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADE972A7CEA8600398317 /* ContentView.swift */; };
 		E66ADE9A2A7CEA8800398317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66ADE992A7CEA8800398317 /* Assets.xcassets */; };
 		E66ADE9D2A7CEA8800398317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66ADE9C2A7CEA8800398317 /* Preview Assets.xcassets */; };
+		E66ADEA42A7CF05F00398317 /* MathLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEA32A7CF05F00398317 /* MathLevelsView.swift */; };
+		E66ADEA62A7CF0B100398317 /* Math1_Q1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEA52A7CF0B100398317 /* Math1_Q1View.swift */; };
+		E66ADEA82A7CF0B800398317 /* Math1_Q2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEA72A7CF0B800398317 /* Math1_Q2View.swift */; };
+		E66ADEAA2A7CF0C100398317 /* Math1_Q3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEA92A7CF0C100398317 /* Math1_Q3View.swift */; };
+		E66ADEAC2A7CF0D900398317 /* MathLevel2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEAB2A7CF0D900398317 /* MathLevel2View.swift */; };
+		E66ADEAE2A7CF2A600398317 /* MathLevel3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEAD2A7CF2A600398317 /* MathLevel3View.swift */; };
+		E66ADEB22A7CF3BE00398317 /* Math1_IncorrectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEB12A7CF3BE00398317 /* Math1_IncorrectView.swift */; };
+		E66ADEB42A7CF42800398317 /* Math1_CorrectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66ADEB32A7CF42800398317 /* Math1_CorrectView.swift */; };
+		E66ADEB92A7CF50000398317 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E66ADEB52A7CF4FF00398317 /* bird.mp3 */; };
+		E66ADEBA2A7CF50000398317 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E66ADEB62A7CF50000398317 /* apple.mp3 */; };
+		E66ADEBB2A7CF50000398317 /* book.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E66ADEB72A7CF50000398317 /* book.mp3 */; };
+		E66ADEBC2A7CF50000398317 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E66ADEB82A7CF50000398317 /* yay.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E638A4FF2A7CFFE70030FB82 /* Math1_NextLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math1_NextLevelView.swift; sourceTree = "<group>"; };
+		E638A5022A7D1BC30030FB82 /* Math2_Add1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math2_Add1View.swift; sourceTree = "<group>"; };
+		E638A5042A7D1C220030FB82 /* Math2_CorrectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math2_CorrectView.swift; sourceTree = "<group>"; };
+		E638A50A2A7D2EAD0030FB82 /* addSecondQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addSecondQView.swift; sourceTree = "<group>"; };
+		E638A50B2A7D2EAD0030FB82 /* addThirdQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addThirdQView.swift; sourceTree = "<group>"; };
+		E638A5132A7D33960030FB82 /* DivisionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DivisionView.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/DivisionView.swift"; sourceTree = "<group>"; };
+		E638A5142A7D33960030FB82 /* MultiplicationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiplicationView.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/MultiplicationView.swift"; sourceTree = "<group>"; };
+		E638A5152A7D33960030FB82 /* multiSecondQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = multiSecondQ.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/multiSecondQ.swift"; sourceTree = "<group>"; };
+		E638A5162A7D33960030FB82 /* multiThirdQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = multiThirdQ.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/multiThirdQ.swift"; sourceTree = "<group>"; };
+		E638A5172A7D33960030FB82 /* divThirdQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = divThirdQ.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/divThirdQ.swift"; sourceTree = "<group>"; };
+		E638A5182A7D33960030FB82 /* divSecondQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = divSecondQ.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/divSecondQ.swift"; sourceTree = "<group>"; };
+		E638A51F2A7D3A840030FB82 /* SubtractionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubtractionView.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/SubtractionView.swift"; sourceTree = "<group>"; };
+		E638A5202A7D3A840030FB82 /* subThirdQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = subThirdQ.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/subThirdQ.swift"; sourceTree = "<group>"; };
+		E638A5212A7D3A840030FB82 /* subSecondQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = subSecondQ.swift; path = "../../../../Downloads/woolyadventure code/MathSection/MathSection/subSecondQ.swift"; sourceTree = "<group>"; };
+		E638A5352A828B7F0030FB82 /* wrongAnswer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wrongAnswer.wav; path = "../../Downloads/woolyadventure code/Words_Section_Level1(Lissie)/wrongAnswer.wav"; sourceTree = "<group>"; };
+		E638A5382A828C110030FB82 /* Spelling1_Q1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling1_Q1View.swift; sourceTree = "<group>"; };
+		E638A53A2A828C460030FB82 /* SpellingCorrectView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingCorrectView1.swift; sourceTree = "<group>"; };
+		E638A53C2A828C960030FB82 /* Spelling1_Q2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling1_Q2View.swift; sourceTree = "<group>"; };
+		E638A53E2A828CF00030FB82 /* Spelling1_Q3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling1_Q3View.swift; sourceTree = "<group>"; };
+		E638A5402A828D2F0030FB82 /* SpellingIncorrectView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingIncorrectView1.swift; sourceTree = "<group>"; };
+		E638A5422A828D890030FB82 /* SpellingLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingLevelsView.swift; sourceTree = "<group>"; };
 		E66ADE922A7CEA8600398317 /* WoolyAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoolyAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66ADE952A7CEA8600398317 /* WoolyAdventuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoolyAdventuresApp.swift; sourceTree = "<group>"; };
 		E66ADE972A7CEA8600398317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E66ADE992A7CEA8800398317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66ADE9C2A7CEA8800398317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E66ADEA32A7CF05F00398317 /* MathLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLevelsView.swift; sourceTree = "<group>"; };
+		E66ADEA52A7CF0B100398317 /* Math1_Q1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math1_Q1View.swift; sourceTree = "<group>"; };
+		E66ADEA72A7CF0B800398317 /* Math1_Q2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math1_Q2View.swift; sourceTree = "<group>"; };
+		E66ADEA92A7CF0C100398317 /* Math1_Q3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math1_Q3View.swift; sourceTree = "<group>"; };
+		E66ADEAB2A7CF0D900398317 /* MathLevel2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLevel2View.swift; sourceTree = "<group>"; };
+		E66ADEAD2A7CF2A600398317 /* MathLevel3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLevel3View.swift; sourceTree = "<group>"; };
+		E66ADEB12A7CF3BE00398317 /* Math1_IncorrectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math1_IncorrectView.swift; sourceTree = "<group>"; };
+		E66ADEB32A7CF42800398317 /* Math1_CorrectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math1_CorrectView.swift; sourceTree = "<group>"; };
+		E66ADEB52A7CF4FF00398317 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird.mp3; path = "../../Downloads/woolyadventure code/Words_Section_Level1(Lissie)/bird.mp3"; sourceTree = "<group>"; };
+		E66ADEB62A7CF50000398317 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = apple.mp3; path = "../../Downloads/woolyadventure code/Words_Section_Level1(Lissie)/apple.mp3"; sourceTree = "<group>"; };
+		E66ADEB72A7CF50000398317 /* book.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = book.mp3; path = "../../Downloads/woolyadventure code/Words_Section_Level1(Lissie)/book.mp3"; sourceTree = "<group>"; };
+		E66ADEB82A7CF50000398317 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yay.mp3; path = "../../Downloads/woolyadventure code/Words_Section_Level1(Lissie)/yay.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +98,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E638A4FC2A7CF7560030FB82 /* Math Level 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E66ADEA52A7CF0B100398317 /* Math1_Q1View.swift */,
+				E66ADEA72A7CF0B800398317 /* Math1_Q2View.swift */,
+				E66ADEA92A7CF0C100398317 /* Math1_Q3View.swift */,
+				E66ADEB32A7CF42800398317 /* Math1_CorrectView.swift */,
+				E638A4FF2A7CFFE70030FB82 /* Math1_NextLevelView.swift */,
+				E66ADEB12A7CF3BE00398317 /* Math1_IncorrectView.swift */,
+			);
+			name = "Math Level 1";
+			sourceTree = "<group>";
+		};
+		E638A5012A7D1B970030FB82 /* Math Level 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E66ADEAB2A7CF0D900398317 /* MathLevel2View.swift */,
+				E638A5212A7D3A840030FB82 /* subSecondQ.swift */,
+				E638A5202A7D3A840030FB82 /* subThirdQ.swift */,
+				E638A51F2A7D3A840030FB82 /* SubtractionView.swift */,
+				E638A5022A7D1BC30030FB82 /* Math2_Add1View.swift */,
+				E638A50A2A7D2EAD0030FB82 /* addSecondQView.swift */,
+				E638A50B2A7D2EAD0030FB82 /* addThirdQView.swift */,
+				E638A5042A7D1C220030FB82 /* Math2_CorrectView.swift */,
+			);
+			path = "Math Level 2";
+			sourceTree = "<group>";
+		};
+		E638A5112A7D32F20030FB82 /* Everything Else */ = {
+			isa = PBXGroup;
+			children = (
+				E66ADE952A7CEA8600398317 /* WoolyAdventuresApp.swift */,
+				E66ADE972A7CEA8600398317 /* ContentView.swift */,
+				E66ADEA32A7CF05F00398317 /* MathLevelsView.swift */,
+				E66ADEAD2A7CF2A600398317 /* MathLevel3View.swift */,
+				E638A5422A828D890030FB82 /* SpellingLevelsView.swift */,
+			);
+			path = "Everything Else";
+			sourceTree = "<group>";
+		};
+		E638A5122A7D330C0030FB82 /* Math Level 3 */ = {
+			isa = PBXGroup;
+			children = (
+				E638A5132A7D33960030FB82 /* DivisionView.swift */,
+				E638A5182A7D33960030FB82 /* divSecondQ.swift */,
+				E638A5172A7D33960030FB82 /* divThirdQ.swift */,
+				E638A5142A7D33960030FB82 /* MultiplicationView.swift */,
+				E638A5152A7D33960030FB82 /* multiSecondQ.swift */,
+				E638A5162A7D33960030FB82 /* multiThirdQ.swift */,
+			);
+			path = "Math Level 3";
+			sourceTree = "<group>";
+		};
+		E638A5372A828BEC0030FB82 /* Spelling Level 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E638A5382A828C110030FB82 /* Spelling1_Q1View.swift */,
+				E638A53A2A828C460030FB82 /* SpellingCorrectView1.swift */,
+				E638A53C2A828C960030FB82 /* Spelling1_Q2View.swift */,
+				E638A5402A828D2F0030FB82 /* SpellingIncorrectView1.swift */,
+				E638A53E2A828CF00030FB82 /* Spelling1_Q3View.swift */,
+			);
+			path = "Spelling Level 1";
+			sourceTree = "<group>";
+		};
 		E66ADE892A7CEA8600398317 = {
 			isa = PBXGroup;
 			children = (
+				E66ADEB62A7CF50000398317 /* apple.mp3 */,
+				E66ADEB52A7CF4FF00398317 /* bird.mp3 */,
+				E66ADEB72A7CF50000398317 /* book.mp3 */,
+				E66ADEB82A7CF50000398317 /* yay.mp3 */,
+				E638A5352A828B7F0030FB82 /* wrongAnswer.wav */,
 				E66ADE942A7CEA8600398317 /* WoolyAdventures */,
 				E66ADE932A7CEA8600398317 /* Products */,
 			);
@@ -51,8 +187,11 @@
 		E66ADE942A7CEA8600398317 /* WoolyAdventures */ = {
 			isa = PBXGroup;
 			children = (
-				E66ADE952A7CEA8600398317 /* WoolyAdventuresApp.swift */,
-				E66ADE972A7CEA8600398317 /* ContentView.swift */,
+				E638A5372A828BEC0030FB82 /* Spelling Level 1 */,
+				E638A5112A7D32F20030FB82 /* Everything Else */,
+				E638A5122A7D330C0030FB82 /* Math Level 3 */,
+				E638A5012A7D1B970030FB82 /* Math Level 2 */,
+				E638A4FC2A7CF7560030FB82 /* Math Level 1 */,
 				E66ADE992A7CEA8800398317 /* Assets.xcassets */,
 				E66ADE9B2A7CEA8800398317 /* Preview Content */,
 			);
@@ -125,8 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E638A5362A828B7F0030FB82 /* wrongAnswer.wav in Resources */,
+				E66ADEBC2A7CF50000398317 /* yay.mp3 in Resources */,
 				E66ADE9D2A7CEA8800398317 /* Preview Assets.xcassets in Resources */,
+				E66ADEBB2A7CF50000398317 /* book.mp3 in Resources */,
+				E66ADEBA2A7CF50000398317 /* apple.mp3 in Resources */,
 				E66ADE9A2A7CEA8800398317 /* Assets.xcassets in Resources */,
+				E66ADEB92A7CF50000398317 /* bird.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +281,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66ADEAA2A7CF0C100398317 /* Math1_Q3View.swift in Sources */,
+				E66ADEAC2A7CF0D900398317 /* MathLevel2View.swift in Sources */,
+				E638A5392A828C110030FB82 /* Spelling1_Q1View.swift in Sources */,
+				E638A5432A828D890030FB82 /* SpellingLevelsView.swift in Sources */,
+				E66ADEA62A7CF0B100398317 /* Math1_Q1View.swift in Sources */,
+				E638A5052A7D1C220030FB82 /* Math2_CorrectView.swift in Sources */,
+				E638A51B2A7D33960030FB82 /* multiSecondQ.swift in Sources */,
+				E638A5032A7D1BC40030FB82 /* Math2_Add1View.swift in Sources */,
+				E638A51C2A7D33960030FB82 /* multiThirdQ.swift in Sources */,
+				E66ADEA42A7CF05F00398317 /* MathLevelsView.swift in Sources */,
 				E66ADE982A7CEA8600398317 /* ContentView.swift in Sources */,
+				E66ADEA82A7CF0B800398317 /* Math1_Q2View.swift in Sources */,
+				E638A5242A7D3A840030FB82 /* subSecondQ.swift in Sources */,
+				E66ADEB22A7CF3BE00398317 /* Math1_IncorrectView.swift in Sources */,
+				E638A51D2A7D33960030FB82 /* divThirdQ.swift in Sources */,
+				E638A53F2A828CF00030FB82 /* Spelling1_Q3View.swift in Sources */,
+				E638A50D2A7D2EAD0030FB82 /* addSecondQView.swift in Sources */,
+				E638A53B2A828C460030FB82 /* SpellingCorrectView1.swift in Sources */,
+				E638A5222A7D3A840030FB82 /* SubtractionView.swift in Sources */,
+				E638A5002A7CFFE70030FB82 /* Math1_NextLevelView.swift in Sources */,
+				E638A5232A7D3A840030FB82 /* subThirdQ.swift in Sources */,
+				E638A51A2A7D33960030FB82 /* MultiplicationView.swift in Sources */,
+				E66ADEB42A7CF42800398317 /* Math1_CorrectView.swift in Sources */,
+				E638A53D2A828C960030FB82 /* Spelling1_Q2View.swift in Sources */,
+				E638A51E2A7D33960030FB82 /* divSecondQ.swift in Sources */,
 				E66ADE962A7CEA8600398317 /* WoolyAdventuresApp.swift in Sources */,
+				E66ADEAE2A7CF2A600398317 /* MathLevel3View.swift in Sources */,
+				E638A50C2A7D2EAD0030FB82 /* addThirdQView.swift in Sources */,
+				E638A5412A828D2F0030FB82 /* SpellingIncorrectView1.swift in Sources */,
+				E638A5192A7D33960030FB82 /* DivisionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.WoolyAdventures;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +479,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.WoolyAdventures;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
